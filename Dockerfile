@@ -1,5 +1,5 @@
-FROM python:alpine3.7
-LABEL version="1.0" maintainer="TOC A/D toc-automationanddevelopment@digitalriver.com"
+FROM python:alpine3.8
+LABEL version="1.1"
 
 #Copy Working python script into container
 COPY . /app
